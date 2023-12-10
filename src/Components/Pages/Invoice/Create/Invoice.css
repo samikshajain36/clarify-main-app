@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Gilroy-Extra-Bold;
+    src: url(../../../../GilroyExtraBold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../../../Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(../../../../Gilroy-Light.ttf);
+}
+.invoice-main-container{
+    background-color: #ebf6f7;
+    height: auto;
+    width: 1160.53px;
+    float: right;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 1rem !important;
+    margin: 6% 0% 2% 0%;
+    padding: 5% 10%;
+    text-align: left;
+}
+.invoice-form-container{
+    display: flex;
+}
+.invoice-form{
+    background-color: #d7e7eb;
+    /* display: flex; */
+    flex-direction: column;
+    border-radius: 1rem !important;
+    padding: 2%;
+    width: auto !important;
+}
+.form-input-colum{
+    display: flex;
+    flex-direction: column;
+}
+.form-input-field{
+    min-width: 542.74px;
+}
+.invoice-form label{
+    text-align: left;
+    font-size: 16px;
+    font-family: Gilroy-Bold;
+}
+.invoice-form input{
+    border-radius: .75rem;
+    max-width: 542.74px;
+    min-height: 40px;
+    outline: none;
+    border: none;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+.invoice-company-section{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+.company-fields{
+    margin-left: 4%;
+}
+.address-input-field{
+    border-radius: 1rem;
+    border: none;
+    margin: 4% 0%;
+}
+.company-address{
+    min-width: 271px;
+    margin-left: 4%;
+}
+hr{
+    color: black;
+    line-height: 2%;
+}
+.invoice-description{
+    width: 838.1px;
+}
+.invoice-single-input-block{
+    display: flex;
+    flex-direction: column;
+}
+.invoice-single-input-block-container{
+    /* position: absolute; */
+    top: 155%;
+    display: flex;
+    min-width: auto;
+}
+.term-and-condition-input{
+    min-width: 510.74px;
+    min-height: 264px;
+}
+.qr-code-heading{
+    min-width:271.36px;
+    min-height: 56px;
+}
+.qr-code-heading-container{
+    margin-left: 4%;
+}
+.light-label{
+    font-family: 'Gilroy-Light' !important;
+}
+.save-invoice-btn-container{
+    justify-content: right;
+}
+.invoice-btn-save, .invoice-btn-discard{
+    border-radius: 2rem;
+    padding: 3% 10%;
+    font-family: 'Gilroy-Light';
+    border: none;
+}
+.invoice-btn-save{
+    background-color: #0b4463;
+    color: white;
+}
+.invoice-btn-discard{
+    background-color: #ffff;
+    color: #000;
+}
+.btn-sub-container{
+    min-width: 32%;
+    justify-content: space-between;
+}
+
+.e-sign-container{
+    justify-content: left;
+    text-align: left;
+    width: 542.74px;
+}
+.form-label{
+    font-family: 'Gilroy-Bold';
+    font-size: 1.5rem;
+    margin-left: 1%;
+}
+.invoice-label-icon{
+    background-color: #afdee1;
+    max-height: 30px;
+    border-radius: 2rem;
+    padding: .2% .5%;
+}

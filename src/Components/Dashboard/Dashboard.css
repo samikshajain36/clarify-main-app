@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(../../Gilroy-Light.ttf);
+}
+
+.link-list {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    justify-content: center;
+    z-index: 1 !important;
+}
+
+.chart-container {
+    background-color: #ebf6f7;
+    max-width: 78.8%;
+    border-radius: .75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 17rem;
+
+}
+
+.dashboard-label {
+    font-family: 'Gilroy-Bold';
+}
+
+.chart-single-card {
+    position: relative;
+    min-width: 269.52px;
+    max-width: 269.52px;
+    max-height: 236px;
+    margin-top: 4%;
+    margin-left: 0%;
+    border-radius: 1rem;
+    justify-content: start;
+    display: flex;
+    overflow: hidden;
+    background-color: white;
+}
+
+.cellular-bars {
+    color: #0c4d71;
+    flex-direction: column;
+    position: absolute;
+    height: 80%;
+    width: 20%;
+    align-items: left;
+    padding-left: 4%;
+    justify-content: space-around;
+    text-align: left;
+    top: 20%;
+}
+
+.chart-single-card h6 {
+    color: black;
+    font-size: 16px;
+    font-family: 'Gilroy-Bold';
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.cellular-bar {
+    color: #0c4d71;
+    background-color: white;
+    width: 85%;
+    height: 20%;
+    margin-bottom: 50%;
+    border-radius: 20rem;
+    box-shadow: 1px 2px 3px black;
+    text-align: center;
+}
+.cellular-bar:nth-child(1){
+    color: #0c4d71;
+    background-color: white;
+    width: 85%;
+    height: 20%;
+    margin-top: 25%;
+    border-radius: 20rem;
+    box-shadow: 1px 2px 3px black;
+    text-align: center;
+}
+
+.prices{
+    flex-direction: column;
+    position: absolute;
+    top: 19%;
+    left: 30%;
+    color: black;
+    height: 80%;
+    justify-content: space-around;
+}
+.price{
+    text-align: left;
+}
+.price-number{
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+}
+.price-status{
+    font-family: 'Gilroy-Light';
+    font-size: 16px;
+    margin-top: -8%;
+}

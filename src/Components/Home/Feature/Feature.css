@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: url(../../../GilroyExtraBold.ttf);
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(../../../Gilroy-Bold.ttf);
+}
+.feature{
+    padding-bottom: 15% !important;
+}
+.feature-caption-container{
+    text-align: center;
+    padding-bottom: 5% !important;
+}
+.feature-caption{
+    font-family: 'Gilroy-ExtraBold' !important;
+    font-size: 48px !important;
+}
+.feature-content-container{
+    display: flex;
+}
+.feature-content-container h5{
+    margin-top: 12%;
+    line-height: 2rem;
+    word-spacing: 1rem;
+    font-family: 'Gilroy-Bold';
+}

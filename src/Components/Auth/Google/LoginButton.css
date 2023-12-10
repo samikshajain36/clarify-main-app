@@ -1,0 +1,10 @@
+.google-btn{
+    border: .5px solid black;
+    max-width: fit-content;
+    border-radius: 2rem;
+    padding: 1% 2%;
+    margin-top: 1rem;
+}
+.google-btn:hover{
+    border: .5px solid black;
+}

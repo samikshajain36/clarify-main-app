@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../../Gilroy-Bold.ttf);
+}
+.signing-blank{
+    background-color: #0c4d71 !important;
+    height: 97.8vh
+}
+.signing-container{
+    padding: 4%;
+    box-shadow: none !important;
+    text-align: left !important;
+    height: 97.8vh;
+    overflow-y: hidden;
+}
+.signin-logo{
+    width: 200px;
+    height: 83.6px;
+}
+.signin-heading{
+    font-size: 24px !important;
+    font-family: 'Gilroy-Bold' !important;
+    font-weight: bold !important;
+    color: black;
+}
+
+.signin-form{
+    display: flex;
+    flex-direction: column;
+}
+.signin-form-input{
+    width: 413.19px;
+    height: 38px;
+    background-color: #E8F0FE;
+    border: 1px solid black !important;
+    margin-top: 4%;
+    border-radius: 2rem;
+}
+.signin-form-input{
+    padding-left: 5%;
+    max-width: 443.19px;
+}
+.password-eye{
+    position: absolute;
+    left: 62% !important;
+    top: 50% !important;
+    color: black;
+    width: min-content;
+}
+.password-eye:hover{
+    cursor: pointer;
+}
+.forgot-link{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Gilroy-Bold';
+    margin-top: 4%;
+}
+.signin-btn{
+    background-color: #0c4d71;
+    color: white;
+    border-radius: 2rem;
+    padding: 8px 16px;
+    font-size: 16px;
+    text-transform: normal;
+    border: none;
+    margin-top: 1rem;
+    max-width: 415.19px;
+    min-height: 40px;
+    cursor: pointer;
+}
+.siginin-with-google, .signup{
+    font-size: 16px !important;
+    font-family: 'Gilroy-Bold' !important;
+    color: black;
+    margin-top: 1rem !important;
+}
+.signup-link{
+    text-decoration: none !important;
+}
+.signin-form-container{
+    margin-top: 4rem !important;
+}
+.signin-language{
+    margin-top: 1rem !important;
+    font-size: medium !important;
+}
+.signup{
+    display: flex;
+}
+.signup-link{
+    color: black;
+}
+
+.signin-password-icon-container{
+    position: relative;
+}

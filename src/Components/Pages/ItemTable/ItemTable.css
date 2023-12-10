@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../../Gilroy-Bold.ttf);
+}
+.item-table-head{
+    background-color: #82a6b9;
+}
+
+.item-table-head-text{
+    color: white !important;
+    font-family: 'Gilroy-Bold' !important;
+    width: 5% !important;
+}
+.item-table-btn-container{
+    min-width: 130% !important;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.item-table-btn{
+    color: white;
+    background-color: #0c4d71;
+    border: none;
+    border-radius: 2rem;
+    padding: 0% 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    font-size: small;
+}
+
+.custom-table-cell{
+    min-width: 6rem
+}
+.action-btn{
+    background-color: #82a6b9 !important;
+    color: white !important;
+}

@@ -1,0 +1,39 @@
+.dropdown-container{
+    position: relative;
+    margin-left: 2rem;
+    z-index: 999999999;
+}
+.dropdown-btn{
+    position: relative;
+    opacity: 0;
+    z-index: 99999999999;
+}
+.dropdown-text{
+    position: absolute;
+    top: 0rem;
+    left: 0.8rem;
+    border: none;
+    background-color: #0c4d71;
+    color: white;
+    min-width: 136.2px;
+    min-height: 36px;
+    border-radius: 0.75rem;
+    padding-top: 3%;
+}
+.dropdown-menu {
+    position: relative;
+    z-index: 99999999 !important;
+    background-color: #0c4d71;
+    min-width: 192px;
+    min-height: 144px;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.dropdown-item{
+    color: white;
+    text-align: center;
+}
+.dropdown-item:hover{
+    background-color: #033b59;
+    color: white;
+}

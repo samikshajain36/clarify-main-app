@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Gilroy-Extra-Bold;
+    src: url(../../../../GilroyExtraBold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../../../Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(../../../../Gilroy-Light.ttf);
+}
+
+.invoice-view{
+    background-color: white;
+    min-width: 902.1px;
+    min-height: 80vh;
+    border-radius: 1.5rem;
+    padding: 2% 4%;
+}
+.invoice-view-label{
+    padding-top: 15px;
+    font-size: 24px;
+    font-family: Gilroy-Bold;
+    text-transform: uppercase;
+    justify-content: center;
+}
+.heading{
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+}
+.bill-heading{
+    margin: 2px;
+}
+.invoice-view-data{
+    font-size: 14px;
+}
+
+.invoice-view-number{
+    display: flex;
+    justify-content: space-between;
+}
+.invoice-view-number-container{
+    display: flex;
+    width: 100%;
+}
+.invoice-view-number-container-client{
+    flex-direction: column;
+}
+.invoice-view-company-name1{
+    font-family: 'Gilroy-Bold';
+}
+.invoice-view-company-name1, .invoice-view-company-name{
+    margin: 0;
+    width: 100%;
+}
+.mini-divider{
+    max-width: 60%;
+}
+.invoice-view-client-data{
+    font-size: 14px;
+    font-family: 'Gilroy-Bold';
+}

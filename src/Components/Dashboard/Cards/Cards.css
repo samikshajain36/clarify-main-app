@@ -1,0 +1,91 @@
+.dashboard-cards {
+    text-align: left;
+    padding: 2.5% 2%;
+    background-color: #ebf6f7;
+    min-width: 757.19px;
+    max-width: 757.19px;
+    max-height: 298.4px;
+    min-height: 298.4px;
+    border-radius: .75rem;
+    margin-top: 1rem;
+    margin-left: 17rem;
+}
+.card{
+    min-width: 220.4px;
+    /* min-height: 182.4px !important; */
+    padding: 10%;
+    margin-left: 1rem;
+    border: none;
+    border-radius: 1.5rem;
+}
+.dashboard-pricing{
+    background-color: #059ca4;
+    min-width: 379.34px;
+    max-height: 298.4px;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 2%;
+    padding: 2% 1%;
+    font-size: 18px;
+    font-family: 'Gilroy-Light';
+}
+.dashboard-pricing table tr {
+    max-width: 80% !important;
+    color: white;
+    justify-content: space-around;
+    border-bottom: .5px solid rgb(208, 208, 208);;
+}
+.dashboard-pricing table tr th{
+    width: 10%;
+    color: white;
+    border-bottom: .75px solid white;
+    border-width: 10%;
+}
+.dashboard-pricing table tr th, td{
+    width: 10%;
+    color: white;
+    justify-content: left;
+}
+.dashboard-pricing table tr td{
+    width: 10%;
+    color: white;
+    justify-content: left;
+    font-size: 14px;
+}
+.pricicing-card-btn{
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: small;
+    margin-left: -30%;
+    text-decoration: underline;
+}
+
+
+.card-icons{
+   font-size: 1.5rem !important;
+}
+.card-icon-container{
+    background-color: #ebf6f7;
+    min-width: 40%;
+    max-width: 40%;
+    min-height: 55%;
+    max-height: 55%;
+    color: #059ca4;
+    padding: 2%;
+    border-radius: 4rem;
+    display: flex;
+    margin-left: -60%;
+    margin-top: -70%;
+    justify-content: center;
+}
+
+.card h1 {
+    margin-left: -50%;
+    margin-top: 15%;
+}
+.card p {
+    margin-left: -50%;
+    margin-bottom: -15%;
+}

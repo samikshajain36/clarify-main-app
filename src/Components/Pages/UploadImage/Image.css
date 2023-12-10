@@ -1,0 +1,32 @@
+.custom-file-input{
+    opacity: 0;
+    z-index: 999 !important;
+    position: relative;
+    padding: 10%;
+}
+.image-input{
+    background-color: white;
+    min-width: 271.36px !important;
+    min-height: 160px !important;
+    overflow: hidden;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    margin: 8% 2% 4% 4%;
+}
+.image-add-icon{
+    position: absolute;  
+    top: 30%;
+    left: 45%;
+    z-index: 999;
+    font-size: xx-large;
+}
+.image-upload-title{
+    position: absolute;  
+    top: 50%;
+    left: 30%;
+    z-index: 999;
+    font-size: small;
+}

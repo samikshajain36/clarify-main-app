@@ -1,0 +1,205 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(../../Gilroy-Light.ttf);
+}
+.profile-main-container{
+    background-color: #ebf6f7;
+    height: auto;
+    width: 1160.53px;
+    float: right;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 1rem !important;
+    margin: 6% 0% 2% 0%;
+    padding: 5% 10%;
+    text-align: left;
+}
+.profile-container{
+    min-width: 902.1px;
+    min-height: 10vh;
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: 2% 4%;
+    margin-top: 2%;
+}
+.user-detail{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Gilroy-Bold';
+}
+.user-detail label, p{
+    margin: 8px 0px;
+}
+.user-detail label{
+    font-family: 'Gilroy-Light';
+    font-size: 16px;
+}
+.image-user-avatar{
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 20rem;
+    width: 120px;
+    margin-right: 12px;
+}
+.company-user-avatar{
+    border-radius: 20rem;
+    width: 120px;
+    margin-right: 12px;
+}
+.personal-information-container{
+    justify-content: space-between;
+}
+.personal-information-edit-btn{
+    text-transform: capitalize !important;
+    background-color: #0c4d71 !important;
+    border-radius: 2rem !important;
+    color: white !important;
+    height: min-content;
+    padding: 4px 40px !important;
+}
+.user-detail-input-wrapper{
+    flex-direction: column;
+}
+.password-edit-btn{
+    width: 0px !important;
+    padding: 0px !important;
+    border-radius: 2rem !important;
+    color: white !important;
+    background-color: #0c4d71 !important;
+    margin-left: 2% !important;
+}
+.password-container{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.user-detail-input-wrapper{
+    width: 31%;
+}
+.profile-input-fields{
+    background-color: #d9f0f1;
+    border-radius: 2rem;
+    border: none;
+    margin-right: 1%;
+    min-width: 246.13px;
+    max-width: 246.13px;
+    min-height: 40px;
+    font-family: 'Gilroy-Light';
+    padding-left: 1.5rem;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.email{
+    text-transform: lowercase;
+}
+.company-input-fields{
+    background-color: #d9f0f1;
+    border-radius: 2rem;
+    border: none;
+    margin-right: 1%;
+    min-width: 516.26px;
+    max-width: 516.26px;
+    min-height: 40px;
+}
+
+.currency-input-fields, .tax-input-fields
+{
+    background-color: #d9f0f1;
+    border-radius: 2rem;
+    border: none;
+    margin-right: 1%;
+    min-width: 246.13px;
+    max-width: 246.13px;
+    min-height: 40px;
+    outline: none;
+}
+.profile-qr-code{
+    font-size: 7rem !important;
+    border: 1px solid skyblue;
+    padding: 5%;
+}
+.profile-e-sign{
+    font-size: 7rem !important;
+    border: 1px solid skyblue;
+    min-width: 100%;
+}
+.e-sign-wrapper{
+    flex-direction: column;
+    padding: 2%;
+    width: 35%;
+}
+.add-qr-code{
+    margin-left: 1rem;
+    margin-top: 5rem;
+}
+
+.add-image{
+    margin-top: 6rem;
+}
+.qr-code-wrapper{
+    margin-left: 2%;
+    flex-direction: column;
+}
+.paypal-breif-content{
+    font-family: 'Gilroy-Light';
+    font-size: 14px;
+}
+.paypal-payment-link{
+    margin-top: 1%;
+    font-family: 'Gilroy-Light';
+    font-size: 16px;
+    text-decoration: underline;
+    color: rgb(75, 144, 255);
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.add-qr-code, .add-image, .profile-upload-btn{
+    position: relative;
+    margin-top: 10%;
+    opacity: 0;
+    z-index: 9999;
+    cursor: pointer;
+}
+.upload-image-container{
+    position: relative;
+}
+.upload-image-container p{
+    top: 30px;
+    position: absolute;
+    background-color: #0c4d71;
+    color: white;
+    padding: 0.25rem 1.5rem;
+    font-family: 'Gilroy-Light';
+    font-size: 16px;
+    border-radius: 2rem;
+}
+.additional-uploads{
+    max-height: 10vh;
+    margin-top: 5%;
+}
+.pl{
+    margin-left: 5%;
+}
+
+.edit-btn{
+    text-transform: capitalize !important;
+    background-color: #0c4d71 !important;
+    border-radius: 2rem !important;
+    color: white !important;
+    height: min-content;
+    padding: 4px 40px !important;
+}
+.edit-btn-outline{
+    text-transform: capitalize !important;
+    background-color: white !important;
+    border: 1px solid black !important; 
+    border-radius: 2rem !important;
+    color: black !important;
+    height: min-content;
+    padding: 4px 40px !important;
+}

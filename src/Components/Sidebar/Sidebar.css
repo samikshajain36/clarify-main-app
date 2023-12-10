@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(../../Gilroy-Light.ttf);
+}
+.sidebar-container{
+    z-index: 99999;
+    position: fixed;
+    background-color: #0c4d71 !important;
+    min-height: 105vh !important;
+    position: fixed;
+    min-width: 248.26px !important;
+    color: white;
+    margin-top: -1.8%;
+    flex-direction: column;
+}
+.sidebar-container img{
+    padding: 24px;
+}
+.sidebar-links{
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+}
+.sidebar-link{
+    padding-left: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 16px !important;
+    font-family: 'Gilroy-Light' !important;
+    line-height: 56px;
+    width: 157%;
+}
+.sidebar-link:hover{
+    padding-left: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 16px !important;
+    font-family: 'Gilroy-Light' !important;
+    line-height: 56px;
+    width: 157%;
+}
+.dot::after{
+   position: absolute;
+   content: '•';
+   font-weight: 900;
+   font-size: 1.75rem;
+   color: #0c4d71;
+   top: 1rem;
+   left: .5rem;
+}
+#curve{
+    position: absolute;
+    margin: -10%;
+    background-image: url(https://fatoura.work/assets/images/SidebarCurve.svg);
+    min-width: 16px !important;
+    max-width: 16px !important;
+    margin-left: 14.5rem !important;
+    min-height: 76.8px !important;
+    max-height: 76.8px !important;
+    background-repeat: no-repeat;
+}

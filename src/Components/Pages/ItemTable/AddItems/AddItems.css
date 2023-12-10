@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../../../Gilroy-Bold.ttf);
+}
+.item-btn{
+    background-color: #0c4d71 !important;
+    color: white !important;
+    border-radius: 2rem !important;
+    margin-right: 1.4% !important;
+    margin-bottom: 2% !important;
+    font-size: 10px !important;
+}
+.item-btn:nth-child(1){
+    margin-left: .75rem;
+}
+
+.add-item-btn-container{
+    background-color: #c7dbe2;
+    min-width: 350px !important;
+}
+
+.modal-dialog-box{
+    min-width: 896px !important;
+    padding: 2% !important;
+}
+.add-item-form-label{
+    margin-left: 2% !important;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px !important;
+}
+.single-input-field{
+    flex-direction: column;
+    margin: 2% .75% !important;
+}
+.single-input-field label{
+    font-family: 'Gilroy-Bold';
+    font-size: 16px !important;
+}
+.single-input-field input{
+    background-color: #d9f0f1;
+    border: none;
+    border-radius: 2rem;
+}
+.single-input-field input[type = text]{
+    max-width: 338px !important;
+    min-width: 338px !important;
+    min-height: 40px !important;
+}
+.single-input-field input[type = number]{
+    min-width: 132.66px !important;
+    max-width: 132.66px !important;
+    min-height: 40px !important;
+}
+.add-item-submit-btn-container{
+    background-color: white !important;
+    border-radius: 2rem;
+}
+.add-item-btn{
+    border-radius: 2rem;
+    border: none;
+    background-color: #0c4d71;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+.add-item-btn:nth-child(2){
+    border-radius: 2rem;
+    color: black;
+    border: 1px solid black !important;
+    background-color: white !important;
+    margin-left: 2%;
+}

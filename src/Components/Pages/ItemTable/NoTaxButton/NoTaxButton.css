@@ -1,0 +1,15 @@
+.tax-btn{
+    border: none;
+    background-color: #0c4d71 !important;
+    color: white !important;
+    min-width: 120% !important;
+    padding: 5% 10% 5% 10% !important;
+    border-radius: 2rem !important;
+    text-transform: capitalize !important;
+}
+
+.cancel-tax{
+    color: red;
+    background-color: transparent;
+    border: none;
+}

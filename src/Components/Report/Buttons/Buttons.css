@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../../Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(../../../Gilroy-Light.ttf);
+}
+.report-filter-fields{
+    border-radius: 2rem;
+    padding: 8px 12px;
+}
+.report-filter-container{
+    flex-direction: column;
+    margin-left: 10px;
+}
+.report-field-label{
+    font-size: 16px;
+    font-family: 'Gilroy-Bold';
+}
+
+.report-filter-dropdown{
+    max-width: 125.25px;
+    font-family: 'Gilroy-Light';
+    font-size: 14px;
+}
+.report-filter-btn{
+    border-radius: 2rem;
+    margin-left: 10px !important;
+    margin-top: 25px !important;
+    max-height: 38px !important;
+    text-transform: capitalize !important;
+    border-radius: 2rem !important;
+    padding: 8px 32px !important;
+    background-color: #0C4D71 !important;
+}

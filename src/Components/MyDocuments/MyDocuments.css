@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Gilroy-Extra-Bold;
+    src: url(../../GilroyExtraBold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(../../Gilroy-Light.ttf);
+}
+.invoice-view-main-container{
+    background-color: #ebf6f7;
+    height: auto;
+    width: 1160.53px;
+    float: right;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 1rem !important;
+    margin: 6% 0% 2% 0%;
+    padding: 4% 2%;
+    text-align: left;
+}
+.invoice-view-header{
+    justify-content: space-between;
+    width: 1096px;
+    padding-bottom: 2% !important;
+}
+.myDocuments-view-label{
+    font-family: 'Gilroy-Bold';
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+.invoice-view-table-head{
+    padding: 10px 10px;
+    width: fit-content;
+    font-family: 'Gilroy-Bold';
+    color: black;
+    font-size: 13px;
+}
+
+.invoice-view-table-head-container{
+    background-color: #d9f0f1;
+    overflow: hidden;
+    border-radius: 10rem !important;
+}
+#allmark{
+    position: relative;
+    color: blue !important;
+    border-radius: 20rem;
+}
+
+.invoice-view-table-data{
+    padding: 10px 10px;
+    width: fit-content;
+    font-family: 'Gilroy-Light';
+    color: black;
+}
+
+.invoice-view-action-btn{
+    background-color: #afdee1;
+    margin-top: 20%;
+    border-radius: 20rem;
+    padding: 6%;
+    font-size: 25px !important;
+    color: black;
+    text-decoration: none;
+}
+.invoice-view-action-btns:nth-child(1){
+    margin-right: 5%;
+}
+.invoice-view-action-edit-btn{
+    margin-right: 15%;
+}
+.invoice-view-links{
+    border-radius: 2rem !important;
+    font-size: 10px;
+}

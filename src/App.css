@@ -1,0 +1,29 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+}
+.nav-list{
+  font-family: 'GilroyExtraBold';
+  text-decoration: none;
+  color: black;
+  margin-right: -10%;
+  padding: 0
+}
+
+.mobileApp{
+  display: none;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .App{
+    display: none;
+  }
+  .mobileApp{
+    display: block;
+    text-align: center;
+  }
+}

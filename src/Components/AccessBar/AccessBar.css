@@ -1,0 +1,60 @@
+.profile-icon{
+    width: 25px;
+    border-radius: 2rem;
+    margin: 0rem 1rem !important;
+    color: black;
+}
+.access-bar{
+    justify-content: space-between;
+}
+.navbar{
+    width: 84%;
+    justify-content: space-between;
+    position: fixed;
+    margin-left: 16%;
+    box-shadow: 2px 2px 2px rgb(181, 181, 181);
+    background-color: white;
+    z-index: 9999;
+}
+.accessbar-btn{
+    border: none;
+    border-radius: .75rem !important;
+    background-color: #0c4d71;
+    color: white;
+    padding: 8px 16px;
+    margin-left: 2%;
+}
+.profile-icon-container{
+    margin-right: 8%;
+}
+
+
+.user-dropdown-container{
+    flex-direction: column;
+    position: absolute;
+    top: 8%;
+    left: 85%;
+    background-color: #0c4d71;
+    min-width: 192px;
+    max-width: 192px;
+    border-radius: 1rem;
+    overflow: hidden;
+    z-index: 9999;
+}
+.user-dropdown-link{
+    color: white;
+    text-decoration: none;
+    line-height: 36px;
+}
+.user-dropdown-link:hover{
+    background-color: #02344f;
+    color: white;
+    text-decoration: none;
+    line-height: 36px;
+}
+.user-dropdown-link:active{
+    background-color: #02344f;
+    color: white;
+    text-decoration: none;
+    line-height: 36px;
+}

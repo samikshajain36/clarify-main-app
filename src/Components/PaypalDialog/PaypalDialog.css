@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(../../Gilroy-Light.ttf);
+}
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(../../Gilroy-Bold.ttf);
+}
+
+.paypal-dialog-title-text{
+    line-height: 1.5rem !important;
+    font-family: 'Gilroy-Bold';
+}
+.paypal-dialog-close-btn-container{
+    justify-content: left !important;
+}
+.paypal-dialog-close-btn{
+    background-color: #0c4d71 !important;
+    color: white !important;
+    text-transform: capitalize !important;
+    border-radius: 2rem !important;
+    margin-left: 2rem !important;
+}
+.dialog ul li {
+    font-family: 'Gilroy-Light';
+    margin-bottom: .09rem !important;
+    font-size: 15px;
+}
+.paypal-dialog-caption-text{
+    font-family: 'Gilroy-Light' !important;
+    font-size: 16px;
+}

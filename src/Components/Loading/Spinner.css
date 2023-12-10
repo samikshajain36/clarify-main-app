@@ -1,0 +1,8 @@
+.spinner-box{
+    min-width: 100%;
+    position: relative;
+    z-index: 99999999999999999;
+    background-color: rgba(rgb(125, 125, 125), rgb(125, 125, 125), rgb(125, 125, 125), 0.5) !important;
+    min-height: 100vh;
+    background-color: transparent;
+}

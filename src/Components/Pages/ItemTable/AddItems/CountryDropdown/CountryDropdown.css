@@ -1,0 +1,64 @@
+.country-input-dropdown{
+    max-width: 132.7px !important;
+    min-width: 132.7px !important;
+    min-height: 42px !important;
+    max-height: 42px !important;
+    overflow: hidden;
+    border-radius: .75rem;
+    border: none;
+    outline: none;
+    margin: 4% 1%;
+}
+.currency-main-container{
+    flex-direction: column !important;
+}
+.currency-dropdown-container{
+    justify-content: space-between;
+}
+.currency-select{
+    margin: 5% 0%;
+}
+.currency-table-container{
+    min-width: 20rem !important;
+    margin: 10% 0%;
+}
+.currency-table{
+    width: 100%;
+}
+.country-label{
+    font-family: 'Gilroy-Bold';
+    margin-top: 8% !important;
+}
+.country-container{
+    justify-content: space-between;
+    padding: 3% 0% !important;
+}
+.error-icon{
+    font-size: 20px !important;
+}
+.country-note p{
+    opacity: .7;
+    font-size: 16px !important;
+    font-family: 'Gilroy-Light' !important;
+}
+.sub-total-amount-item-table{
+    font-size: 16px !important;
+    font-family: 'Gilroy-Bold';
+}
+.total-amount-item-table{
+    font-size: 20px !important;
+    font-family: 'Gilroy-Bold';
+}
+.country-container table{
+    min-width: 50% !important;
+}
+.sub-total-amount-item-table-row{
+    border-bottom: .1px solid black;
+    border-bottom-width: 10% !important;
+    border-color: gray;
+}
+
+.country-price{
+    color: black;
+    width: max-content;
+}

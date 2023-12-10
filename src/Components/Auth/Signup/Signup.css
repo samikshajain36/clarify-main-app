@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../../Gilroy-Bold.ttf);
+}
+.signup-blank{
+    background-color: #0c4d71 !important;
+    min-height: auto;
+    overflow-y: hidden !important;
+}
+.signup-container{
+    padding: 4%;
+    box-shadow: none !important;
+    text-align: left !important;
+    height: auto;
+    overflow-y: hidden !important;
+}
+.signup-logo{
+    width: 200px;
+    height: 83.6px;
+}
+.signup-heading{
+    font-size: 24px !important;
+    font-family: 'Gilroy-Bold' !important;
+    font-weight: bold !important;
+    color: black;
+}
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+}
+.signup-form-input{
+    width: 437.57px;
+    height: 42px;
+    background-color: #FFFF;
+    border: 1px solid black !important;
+    margin-top: 2%;
+    border-radius: 2rem;
+}
+.signup-form-input{
+    padding-left: 5%;
+    max-width: 437.57px;
+}
+.password-eye{
+    position: absolute;
+    left: 31%;
+    top: 47.5%;
+    color: black;
+}
+.password-eye:hover{
+    cursor: pointer;
+}
+.forgot-link{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Gilroy-Bold';
+    margin-top: 4%;
+}
+.signup-btn{
+    background-color: #0c4d71;
+    color: white;
+    border-radius: 2rem;
+    padding: 8px 16px;
+    font-size: 16px;
+    text-transform: normal;
+    border: none;
+    margin-top: 1rem;
+    max-width: 415.19px;
+    min-height: 40px;
+    cursor: pointer;
+}
+.signin-with-google, .signup{
+    font-size: 16px !important;
+    font-family: 'Gilroy-Bold' !important;
+    color: black;
+    margin-top: 1rem !important;
+}
+.signup-link{
+    text-decoration: none !important;
+}
+.signup-form-container{
+    margin-top: 2rem !important;
+}
+.signup-language{
+    margin-top: 1rem !important;
+    font-size: medium !important;
+}
+.signup{
+    display: flex;
+}
+.signup-link{
+    color: black;
+}
+
+
+
+.name{
+    max-width: 209.59px;
+    margin-right: 1rem !important
+}
+.error{
+    color: red;
+    font-size: 12px !important;
+    font-weight: 100;
+}

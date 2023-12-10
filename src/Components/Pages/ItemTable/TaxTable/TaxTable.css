@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../../../../Gilroy-Bold.ttf);
+}
+.tax-table-container{
+    background-color: white;
+    min-height: 455px;
+    min-width: 576px;
+    padding: 4%;
+    border-radius: 1rem;
+}
+.tax-table{
+    width: 528px;
+    border-radius: 2rem !important;
+}
+.table-head{
+    border-radius: 2rem;
+    background-color: #d9f0f1;
+}
+.tax-table-head-text{
+    padding-left: 2rem;
+    padding: .75rem 0rem .75rem 2rem;
+}
+.blank-head{
+    min-width: 40px;
+}
+.no-tax-text td:nth-child(1){
+    text-align: end;
+}
+.table-label{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+.add-tax-input{
+    border-radius: 2rem;
+    margin-right: 2%;
+    min-width: 176px;
+    min-height: 40px;
+    border: none;
+    background-color: #d9f0f1;
+}
+.add-tax-input-label{
+    font-family: 'Gilroy-Bold';
+}
+/* .table-head-container{
+    border-radius: 2rem;
+    background-color: red;
+    overflow: hidden;
+    width: 528px;
+    justify-content: space-between;
+} */
+.table-content{
+    padding-left: 2rem;
+}
+
+.tax-table-add-btn{
+    background-color: #0c4d71; 
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 2rem
+}
